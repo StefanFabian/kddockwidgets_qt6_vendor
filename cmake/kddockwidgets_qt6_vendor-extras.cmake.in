@@ -1,0 +1,9 @@
+set(_kddockwidgets_qt6_vendor_prefix
+  "${kddockwidgets_qt6_vendor_DIR}/../../../opt/kddockwidgets_qt6_vendor")
+
+find_package(KDDockWidgets-qt6 REQUIRED CONFIG
+  PATHS "${_kddockwidgets_qt6_vendor_prefix}"
+  NO_DEFAULT_PATH
+)
+
+unset(_kddockwidgets_qt6_vendor_prefix)

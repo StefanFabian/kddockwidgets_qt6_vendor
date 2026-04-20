@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>kddockwidgets_qt6_vendor</name>
+  <version>0.0.0</version>
+  <description>Vendor package for KDDockWidgets.</description>
+
+  <maintainer email="fabian@sim.tu-darmstadt.de">Stefan Fabian</maintainer>
+  <license>Apache-2.0</license>
+  <license>GPL-3.0-only</license> <!-- KDDockWidgets license -->
+  <author email="fabian@sim.tu-darmstadt.de">Stefan Fabian</author>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_vendor_package</buildtool_depend>
+
+  <build_depend>opengl</build_depend>
+  <build_depend>qt6-base-dev</build_depend>
+  <build_depend>qt6-base-private-dev</build_depend>
+  <build_depend>qt6-declarative-dev</build_depend>
+  <build_depend>qt6-declarative-private-dev</build_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

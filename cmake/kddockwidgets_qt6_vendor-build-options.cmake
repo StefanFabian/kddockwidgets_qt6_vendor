@@ -1,0 +1,8 @@
+set(KDDockWidgets_QT6 ON CACHE BOOL "Build against Qt 6" FORCE)
+set(KDDockWidgets_FRONTENDS "qtwidgets;qtquick" CACHE STRING "Semicolon separated list of frontends to enable" FORCE)
+set(KDDockWidgets_EXAMPLES OFF CACHE BOOL "Build the examples" FORCE)
+set(KDDockWidgets_TESTS OFF CACHE BOOL "Build the tests" FORCE)
+set(KDDockWidgets_DOCS OFF CACHE BOOL "Build the API documentation" FORCE)
+set(KDDockWidgets_PYTHON_BINDINGS OFF CACHE BOOL "Build python bindings" FORCE)
+set(KDDockWidgets_WERROR OFF CACHE BOOL "Use -Werror" FORCE)
+set(BUILD_TESTING OFF CACHE BOOL "Enable tests" FORCE)
