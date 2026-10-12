@@ -6,7 +6,7 @@ find_package(ament_cmake_vendor_package REQUIRED)
 
 ament_vendor(kddockwidgets_qt6_vendor
   VCS_URL https://github.com/KDAB/KDDockWidgets.git
-  VCS_VERSION v2.4.0
+  VCS_VERSION v2.4.1
   GLOBAL_HOOK
   CMAKE_ARGS
     "-C${CMAKE_CURRENT_SOURCE_DIR}/cmake/kddockwidgets_qt6_vendor-build-options.cmake"
